@@ -28,7 +28,7 @@ function take_snapshot(){
 }
 function gotPoses(results){
     if(results.length > 0) {
-        noseY=results[0].pose.nose.y+30;
+        noseY=results[0].pose.nose.y+20;
         nosex=results[0].pose.nose.x-25;
         console.log(results);
         console.log("nose x = "+ results[0].pose.nose.x);
